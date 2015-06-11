@@ -3,7 +3,7 @@ echo
 echo "Setting up Vagrant"
 echo 
 
-vagrant up
+vagrant up --provider virtualbox
 
 echo 
 echo "Setting up Ansible configuration to access Vagrant"
